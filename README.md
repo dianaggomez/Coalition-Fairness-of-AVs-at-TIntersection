@@ -28,7 +28,7 @@
 ## Coalitional Fairness of AVs at T-Intersection
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
-Paper Available: [https://example.com](https://example.com)
+Paper available at [https://example.com](https://example.com)
 
 What:
 
