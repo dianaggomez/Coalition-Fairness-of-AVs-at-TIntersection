@@ -32,7 +32,7 @@ Paper available at [https://example.com](https://example.com)
 
 What:
 
-We analyze the fairness of actions by Autonomous Vehicles (AVs) as they act in the self-interest of their coalition, or company, by comparing the changes in efficiency at a T-Intersection with and without a fairness regulation in place.
+We analyze the fairness of actions by Autonomous Vehicles (AVs) as they act in the self-interest of their coalition, or company, by comparing the changes in efficiency at a T-Intersection with and without a fairness regulation.
 
 Why:
 
