@@ -13,7 +13,7 @@ S2 = Coalition(coalition_num=2,num_of_vehicles=6,policy ='SR')
 
 coalitions = [S1,S2]
 world = World(coalitions)
-world.fairness = False
+world.fairness = False # if True, then fairness reward is included
 # world.initialize_state_space()
 
 max_episode = 10000000
