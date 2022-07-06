@@ -36,7 +36,7 @@ We analyze the fairness of actions by Autonomous Vehicles (AVs) as they act in t
 
 Why:
 
-Although AV companies create decision making algorithms with the intention of improving the performance of their vehicles, it may cause cause inefficiencies in traffic and potentially create unfair situations with other vehicles. 
+Although AV companies may create decision making algorithms with the intention of improving the performance of their vehicles, it may cause cause inefficiencies in traffic and potentially create unfair situations with other vehicles. 
 
 <!-- Use the `BLANK_README.md` to get started. -->
 
