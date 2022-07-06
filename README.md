@@ -117,11 +117,11 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 <!-- LICENSE -->
-## License
+<!--## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p> -->
 
 
 
@@ -130,7 +130,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Diana Gomez - dggomez@andrew.cmu.edu
 
-Project Link: [https://github.com/dianaggomez/Coalition-Fairness-of-AVs-at-TIntersection](https://github.com/dianaggomez/Coalition-Fairness-of-AVs-at-TIntersection)
+Project Link: [https://github.com/dianaggomez/coalitiona_fairness](https://github.com/dianaggomez/coalitional_fairness)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
