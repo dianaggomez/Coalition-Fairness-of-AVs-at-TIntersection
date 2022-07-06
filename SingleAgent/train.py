@@ -36,14 +36,8 @@ s_t = world.current_state_idx
 # Choose a from s using policy dervides from Q (e-greedy)
 a_t = S1.choose_action(s_t)
 
-R_t_50 = []
-R_t_100 = []
-R_t_150 = []
 R_t_200 = []
 
-R_eps_avg_50 = 0 # return
-R_eps_avg_100 = 0 # return
-R_eps_avg_150 = 0 # return
 R_eps_avg_200 = 0 # return
 
 R_eps = 0
@@ -69,28 +63,15 @@ while t <= max_episode:
     # print(S1.Q[s_t, a_t])
 
     if world.is_terminal():
-        # episode_return.append([R_t,world.current_timestep])
         episode +=1
         # print('Episode:', episode)
         # print('Time to clear queue: ', world.current_timestep)
         # print('return: ',R_t)
 
-        # R_eps_avg += R_eps/S1.t_pi
-        R_eps_avg_50 += R_eps
-        R_eps_avg_100 += R_eps
-        R_eps_avg_150 += R_eps
         R_eps_avg_200 += R_eps
         
         # Tracking the average reward over N episodes
-        if episode%50 == 0:
-            R_t_50.append(R_eps_avg_50/50)
-            R_eps_avg_50 = 0
-        if episode%100 == 0:
-            R_t_100.append(R_eps_avg_100/100)
-            R_eps_avg_100 = 0
-        if episode%150 == 0:
-            R_t_150.append(R_eps_avg_150/50)
-            R_eps_avg_50 = 0
+
         if episode%200 == 0:
             R_t_200.append(R_eps_avg_200/100)
             R_eps_avg_100 = 0
@@ -116,9 +97,6 @@ while t <= max_episode:
         if world.fairness:
             np.save('Return_per_Episode_fairness_{ep}_SingleAgent'.format(ep=episode),R_t)
         else:
-            np.save('Return_per_Episode_{ep}_SingleAgent_50'.format(ep=episode),R_t_50)
-            np.save('Return_per_Episode_{ep}_SingleAgent_100'.format(ep=episode),R_t_100)
-            np.save('Return_per_Episode_{ep}_SingleAgent_150'.format(ep=episode),R_t_150)
             np.save('Return_per_Episode_{ep}_SingleAgent_200'.format(ep=episode),R_t_200)
         number +=1
 
@@ -130,7 +108,4 @@ if world.fairness:
 else:
     np.save('Q_{ep}_episodes_3and2_SingleAgent'.format(ep = episode), S1.Q)
     print('Q table saved')
-    np.save('Return_per_Episode_{ep}_SingleAgent_50'.format(ep=episode),R_t_50)
-    np.save('Return_per_Episode_{ep}_SingleAgent_100'.format(ep=episode),R_t_100)
-    np.save('Return_per_Episode_{ep}_SingleAgent_150'.format(ep=episode),R_t_150)
     np.save('Return_per_Episode_{ep}_SingleAgent_200'.format(ep=episode),R_t_200)
