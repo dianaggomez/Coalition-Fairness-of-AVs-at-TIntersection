@@ -130,7 +130,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Diana Gomez - dggomez@andrew.cmu.edu
 
-Project Link: [https://github.com/dianaggomez/coalitiona_fairness](https://github.com/dianaggomez/coalitional_fairness)
+Project Link: [https://github.com/dianaggomez/coalitional_fairness](https://github.com/dianaggomez/coalitional_fairness)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
