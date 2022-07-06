@@ -123,7 +123,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Diana Gomez - dggomez@andrew.cmu.edu
 
-Project Link: [https://github.com/your_username/Coalition-Fairness-of-AVs-at-TIntersection](https://github.com/your_username/Coalition-Fairness-of-AVs-at-TIntersection)
+Project Link: [https://github.com/dianaggomez/Coalition-Fairness-of-AVs-at-TIntersection](https://github.com/dianaggomez/Coalition-Fairness-of-AVs-at-TIntersection)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
