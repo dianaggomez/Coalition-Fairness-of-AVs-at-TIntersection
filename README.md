@@ -108,7 +108,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <!--_For more examples, please refer to the [Documentation](https://example.com)_ -->
 
-`Optimal_Path.py` uses the Q-Table from training to make decision and will output the group exiting time data for all queue configurations for matted as ``pyhthon
+`Optimal_Path.py` uses the Q-Table from training to make decision and will output the group exiting time data for all queue configurations for matted as ``python
    queue_{num}.npy;
    ```
 
