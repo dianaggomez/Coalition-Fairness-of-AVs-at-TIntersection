@@ -38,6 +38,10 @@ Why:
 
 Although AV companies may create decision making algorithms with the intention of improving the performance of their vehicles, it may cause cause inefficiencies in traffic and potentially create unfair situations with other vehicles. 
 
+How:
+
+TODO
+
 <!-- Use the `BLANK_README.md` to get started. -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -103,6 +107,11 @@ _Below is an example of how you can instruct your audience on installing and set
 <!--Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources. -->
 
 <!--_For more examples, please refer to the [Documentation](https://example.com)_ -->
+
+`Optimal_Path.py` uses the Q-Table from training to make decision and will output the group exiting time data for all queue configurations for matted as ``pyhthon
+   queue_{num}.npy;
+   ```
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
